@@ -8,8 +8,8 @@ export default function Button(props){
     border: "1px solid black",
     boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
     color: "black"
-  }
+  } 
 
   return (
-    <button style={style} className="reusable-button">{props.text}</button>)
+    <button style={style} className="reusable-button">{props.children}</button>)
 }
