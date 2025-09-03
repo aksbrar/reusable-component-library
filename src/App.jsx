@@ -5,10 +5,15 @@ import { FaGoogle } from "react-icons/fa"
 
 function App() {
   return (
-    <Button onClick={()=>alert("working")}>
-      <FaGoogle />
-      Log into Google
-    </Button>
+    <>
+      <Button onClick={()=>alert("working")}
+              size="large">
+                  <FaGoogle />
+                  Log into Google
+      </Button>
+    </>
+
+    
   )
 }
 
