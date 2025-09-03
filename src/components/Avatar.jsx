@@ -1,4 +1,6 @@
-export default function Avatar({img, children, color="navy"}){
+import { IoPersonSharp } from "react-icons/io5"
+
+export default function Avatar({img, children, color="navy"}){ 
   const styles = {
     body: {
       backgroundColor: "#2F2F2F",
@@ -80,7 +82,7 @@ export default function Avatar({img, children, color="navy"}){
   }
 
   if(!children && !img){
-    html = null
+    html = <IoPersonSharp/>
     applyStyle = {
       ...applyStyle,
       ...styles.avatar,
