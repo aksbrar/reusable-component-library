@@ -1,4 +1,5 @@
 import './App.css'
+import Avatar from './components/Avatar'
 import Button from './components/Button'
 import { FaGoogle } from "react-icons/fa"
 
@@ -6,14 +7,17 @@ import { FaGoogle } from "react-icons/fa"
 function App() {
   return (
     <>
-      <Button onClick={()=>alert("working")}
-              size="large">
-                  <FaGoogle />
-                  Log into Google
-      </Button>
-    </>
+      <Avatar img={
+        {
+          src : "https://randomuser.me/api/portraits/women/45.jpg",
+          alt : "fuddi deni"
+        }
+      }/>
 
-    
+      <Avatar color='pink'>HK</Avatar>
+
+      <Avatar></Avatar>
+    </> 
   )
 }
 
