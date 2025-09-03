@@ -64,7 +64,13 @@ export default function Avatar({img, children, color="navy"}){
     }
   }
   if(children){
-    html = children
+    const words = children.split(" ")
+    if (words.length === 1 ){
+      html = words[0].slice(0,2)
+    } else {
+      const word = words.map(word => word.slice(0 , 1))
+      html = word[0] + word[1]
+    }
     applyStyle = {
       ...applyStyle,
       ...styles.avatar,

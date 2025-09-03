@@ -14,7 +14,7 @@ function App() {
         }
       }/>
 
-      <Avatar color='pink'>HK</Avatar>
+      <Avatar color='pink'>a</Avatar>
 
       <Avatar></Avatar>
     </> 
