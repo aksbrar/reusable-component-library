@@ -11,5 +11,5 @@ export default function Button(props){
   } 
 
   return (
-    <button style={style} className="reusable-button">{props.children}</button>)
+    <button style={style} className="reusable-button" {...props}>{props.children}</button>)
 }

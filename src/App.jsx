@@ -1,9 +1,14 @@
 import './App.css'
 import Button from './components/Button'
+import { FaGoogle } from "react-icons/fa"
+
 
 function App() {
   return (
-    <Button>Reusable</Button>
+    <Button onClick={()=>alert("working")}>
+      <FaGoogle />
+      Log into Google
+    </Button>
   )
 }
 
