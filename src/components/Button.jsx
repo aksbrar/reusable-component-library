@@ -53,7 +53,6 @@ export default function Button({size="default", color="default", children, ...re
     ...baseStyle,
     ...buttonStyles.sizes[size],
     ...buttonStyles.colors[color]
-
   }
 
 
