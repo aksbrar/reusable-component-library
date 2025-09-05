@@ -21,7 +21,7 @@ export default function Button({size="default", color="default", children, ...re
       default: { 
         color: "#111827", 
         background: "linear-gradient(135deg, #f9fafb, #e5e7eb)" 
-      }, // clean neutral gray
+      }, // neutral gray
       primary: { 
         color: "white", 
         background: "linear-gradient(135deg, #3b82f6, #1d4ed8)" 
