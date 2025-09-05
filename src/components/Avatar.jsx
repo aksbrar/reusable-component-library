@@ -37,7 +37,6 @@ export default function Avatar({img, children, color="navy"}){
       color: "whitesmoke",
     },
 
-    // Random background color helpers
     navy: {
       backgroundColor: "#1F2937",
     },
