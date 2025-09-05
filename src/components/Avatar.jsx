@@ -28,7 +28,7 @@ export default function Avatar({img, children, color="navy"}){
       fontFamily: "'Karla', sans-serif",
     },
     avatarIcon: {
-      backgroundColor: "#1F2937", // using .navy by default
+      backgroundColor: "#1F2937", 
     },
     avatarSvg: {
       height: "100%",
