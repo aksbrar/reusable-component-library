@@ -19,7 +19,7 @@ export default function Avatar({img, children, color="navy"}){
       width: "100%",
     },
     avatarLetters: {
-      backgroundColor: "#F43F5E", // using .red by default
+      backgroundColor: "#F43F5E", 
       color: "white",
       display: "flex",
       alignItems: "center",
