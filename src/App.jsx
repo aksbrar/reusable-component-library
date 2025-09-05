@@ -13,9 +13,7 @@ function App() {
           alt : "fuddi deni"
         }
       }/>
-
       <Avatar color='pink'>a</Avatar>
-
       <Avatar></Avatar>
     </> 
   )
