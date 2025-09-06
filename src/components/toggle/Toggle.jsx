@@ -9,7 +9,7 @@ export default function Toggle({children}){
   const [on, setOn] = React.useState(false)
 
   function toggle() {
-    setOn(on = !on)
+    setOn(on => !on)
   }
 
   return (
