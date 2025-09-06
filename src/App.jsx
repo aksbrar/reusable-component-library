@@ -6,16 +6,7 @@ import { FaGoogle } from "react-icons/fa"
 
 function App() {
   return (
-    <>
-      <Avatar img={
-        {
-          src : "https://randomuser.me/api/portraits/women/45.jpg",
-          alt : "fuddi deni"
-        }
-      }/>
-      <Avatar color='pink'>a</Avatar>
-      <Avatar></Avatar>
-    </> 
+    null  
   )
 }
 
