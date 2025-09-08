@@ -7,11 +7,18 @@ import Toggle from './components/toggle/index'
 
 function App() {
   return (
-    <Toggle>
-      <Toggle.Button><button>Hi</button></Toggle.Button>
-      <Toggle.on>I am revealed</Toggle.on>
-      <Toggle.off>I am when not revealed</Toggle.off>
-    </Toggle>  
+    <>
+      <Toggle>
+        <Toggle.Button>
+          <Toggle.On>
+            <div className="box filled"></div>
+          </Toggle.On>
+          <Toggle.Off>
+            <div className="box"></div>
+          </Toggle.Off>
+        </Toggle.Button>
+      </Toggle>
+    </>  
   )
 }
 
