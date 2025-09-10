@@ -11,7 +11,11 @@ function App() {
   return (
     <Toggle>
       <Toggle.Button>
-        <Toggle.Display></Toggle.Display>
+        <Toggle.Display>
+          {(on)=>{
+            return <div className={`box ${on?"filled":""}`}></div>
+          }}
+        </Toggle.Display>
       </Toggle.Button>
     </Toggle>
   )
