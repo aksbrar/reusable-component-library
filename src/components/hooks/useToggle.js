@@ -5,6 +5,9 @@ export default function useToggle(){
   // on state
   const [on, setOn] = React.useState(false)
 
+
+  console.log("toggle ran")
+
   // toggle state
   function toggle() {
     setOn(on => !on)
