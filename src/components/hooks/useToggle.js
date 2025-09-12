@@ -9,4 +9,9 @@ export default function useToggle(){
   function toggle() {
     setOn(on => !on)
   }
+
+  return {
+    on,
+    toggle
+  }
 }
