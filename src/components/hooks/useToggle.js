@@ -10,7 +10,7 @@ export default function useToggle(){
     setOn(on => !on)
   }
 
-  return {
+  return  {
     on,
     toggle
   }

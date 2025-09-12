@@ -10,4 +10,4 @@ Menu.Dropdown = MenuDropdown
 Menu.Item = MenuItem
 
 // return 
-return Menu
+export default Menu

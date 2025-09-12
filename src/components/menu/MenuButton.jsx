@@ -1,11 +1,14 @@
 // imports
-import React from "react";
-import useToggle from "../hooks/useToggle";
+import React from "react"
+import { MenuContext } from "./Menu"
 
 // return menu
 export default function MenuButton({children}){
+
+  const {toggle} = React.useContext(MenuContext)
+  
   return (
-    <button onClick="">
+    <button onClick={toggle}>
       {children}
     </button>
   )  
